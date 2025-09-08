@@ -17,13 +17,11 @@ body {
   width: 100%;
   scroll-behavior: smooth;
   background-color: var(--background);
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 500px) {
-  body{
-    overflow-x: hidden;
-  }
+ 
   h4{
     font-size: 14px;
   }
@@ -378,12 +376,26 @@ nav {
  .get-start{
   
   display: block;
-   right: -28%;
+  left: 78%;
    top: 77%;
   }
   .get-start img{
     width:70px;
     height: 70px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .download-app button {
+    display: none;
+  }
+  .hero-left{
+    clip-path: none;
+  }
+  .get-start{
+    display: none;
+  }
+  .download-btn button {
+    display: none;
   }
 }
 
@@ -791,6 +803,9 @@ max-height: 0px;
 }
 
 @media only screen and (max-width: 672px) {
+  body{
+    overflow-x: hidden;
+  }
   .footer .row {
     display: flex;
     flex-direction: column;
