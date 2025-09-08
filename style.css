@@ -391,6 +391,9 @@ nav {
   .hero-left{
     clip-path: none;
   }
+   .start-btn{
+    margin-top: 20px;
+   }
   .get-start{
     display: none;
   }
