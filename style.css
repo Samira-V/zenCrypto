@@ -732,7 +732,7 @@ transition: all 1s ease;
 .panel {
   padding: 0 18px;
   background-color: white;
- height: 0px;
+max-height: 0px;
   overflow-y: scroll;
   text-align: left;
   line-height: 25px;
@@ -774,7 +774,7 @@ transition: all 1s ease;
 }
 
 .footer-item h4 {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 
 .footer-item ul {
@@ -796,6 +796,7 @@ transition: all 1s ease;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: left;
+   
   }
 
   /* .footer-item {
@@ -805,12 +806,17 @@ transition: all 1s ease;
   .footer-item ul {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-
+    gap: 20px;
+    
   }
-
+  
   .footer-item {
-    margin-bottom: 20px;
+    padding-block: 20px;
+    border-bottom: 0.5px solid var(--background);
+   
+  }
+  .footer-item:last-child{
+    border-bottom: 0;
   }
 
   .footer-item span {
