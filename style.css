@@ -24,6 +24,9 @@ body {
   body{
     overflow-x: hidden;
   }
+  h4{
+    font-size: 14px;
+  }
 }
 
 :root {
@@ -280,10 +283,12 @@ nav {
   position: absolute;
   top: 77%;
   left: 45%;
-  animation: spin 5s ease infinite;
   cursor: pointer;
 }
-
+.get-start img{
+  
+  animation: spin 5s ease infinite;
+}
 @keyframes spin {
   0% {
     transform: rotate(90deg);
@@ -373,10 +378,13 @@ nav {
  .get-start{
   
   display: block;
-   right: -160px;
-   top: 75%;
+   right: -28%;
+   top: 77%;
   }
- 
+  .get-start img{
+    width:70px;
+    height: 70px;
+  }
 }
 
 /* end of hero style */
