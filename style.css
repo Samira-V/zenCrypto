@@ -811,7 +811,7 @@ nav {
 .footer-logo{
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 5px;
 
 }
 .footer-logo-monotype{
