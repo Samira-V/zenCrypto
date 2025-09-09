@@ -376,7 +376,7 @@ nav {
  .get-start{
   
   display: block;
-  left: 78%;
+  left: 81%;
    top: 77%;
   }
   .get-start img{
@@ -384,7 +384,7 @@ nav {
     height: 70px;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
   .download-app button {
     display: none;
   }
@@ -396,17 +396,18 @@ nav {
   
   display: block;
   left: 77%;
-   top: 77%;
+   top: 80%;
   }
   .get-start img{
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
    
   }
   .download-btn button {
     display: none;
   }
 }
+
 
 /* end of hero style */
 /* start mission section  */
