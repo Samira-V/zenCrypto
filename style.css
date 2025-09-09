@@ -12,11 +12,12 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Martian Mono", monospace;
   width: 100%;
-  scroll-behavior: smooth;
   background-color: var(--background);
   overflow-x: hidden;
 }
