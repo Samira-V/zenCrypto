@@ -808,6 +808,20 @@ nav {
 
 
 }
+.footer-logo{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+.footer-logo-monotype{
+ font-size: 50px;
+ color: var(--yellow);
+ margin-top: -10px;
+
+
+}
+
 
 .footer .row {
   display: flex;
