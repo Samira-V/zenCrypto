@@ -1,5 +1,7 @@
 let acc = document.getElementsByClassName("accordion");
-console.log(acc)
+let menu = document.querySelector(".mobile-menu-container")
+let header = document.querySelector(".header")
+
 let i;
 // let plus = document.querySelector('.plus')
 // let minus = document.querySelector('.minus')
@@ -31,3 +33,11 @@ for (; j < all.length; j++) {
         all[i].style.borderTop = '1px solid red';
     }
 }
+ menu.addEventListener('click' , ()=>{
+  header.classList.toggle('openMenu')
+ })
+ const cursor = document.querySelector(".cursor")
+ document.addEventListener("mousemove",(e)=>{
+cursor.style.left = `${e.clientX}px`
+cursor.style.top = `${e.clientY}px`
+ })
